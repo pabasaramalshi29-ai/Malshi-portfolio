@@ -1037,26 +1037,41 @@ h1 .teal {
   flex-shrink: 0;
 }
 
-.proj-link-preview {
+.proj-link-preview,
+.proj-link.proj-link-preview {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   background: var(--teal);
-  color: #02110e;
-  padding: 7px 16px;
+  color: #031310 !important;
+  padding: 8px 18px;
   border-radius: 6px;
   font-family: 'DM Mono', monospace;
-  font-size: 0.72rem;
+  font-size: 0.74rem;
   letter-spacing: 1.2px;
   text-decoration: none;
-  font-weight: 500;
-  transition: background 0.25s, transform 0.2s;
+  font-weight: 600;
+  box-shadow: 0 2px 12px rgba(15, 244, 198, 0.25);
+  transition: background 0.25s, transform 0.2s, box-shadow 0.25s, gap 0.25s;
 }
 
-.proj-link-preview:hover {
-  background: #0de0b2;
+.proj-link-preview span,
+.proj-link.proj-link-preview span {
+  color: #031310 !important;
+}
+
+.proj-link-preview:hover,
+.proj-link.proj-link-preview:hover {
+  background: #34fcd0;
+  color: #010b09 !important;
   transform: translateY(-2px);
+  box-shadow: 0 4px 18px rgba(15, 244, 198, 0.45);
   gap: 10px;
+}
+
+.proj-link-preview:hover span,
+.proj-link.proj-link-preview:hover span {
+  color: #010b09 !important;
 }
 
 .proj-header {
