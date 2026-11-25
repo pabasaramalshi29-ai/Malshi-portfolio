@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#041f1a"/>
+      <stop offset="60%" style="stop-color:#062e28"/>
+      <stop offset="100%" style="stop-color:#051a16"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#062e28;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#041f1a"/>
+    </linearGradient>
+    <linearGradient id="sun" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#sky)"/>
+  <!-- sun/moon glow -->
+  <circle cx="480" cy="85" r="55" fill="#fbbf24" opacity="0.07"/>
+  <circle cx="480" cy="85" r="32" fill="#fbbf24" opacity="0.14"/>
+  <circle cx="480" cy="85" r="18" fill="#fbbf24" opacity="0.65"/>
+  <!-- stars -->
+  <circle cx="80" cy="30" r="1.2" fill="white" opacity="0.6"/>
+  <circle cx="150" cy="18" r="1" fill="white" opacity="0.5"/>
+  <circle cx="220" cy="45" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="310" cy="22" r="1" fill="white" opacity="0.4"/>
+  <circle cx="390" cy="38" r="1.2" fill="white" opacity="0.5"/>
+  <!-- mountains -->
+  <polygon points="0,220 100,100 180,180 220,130 300,200 0,200" fill="#042018" opacity="0.8"/>
+  <polygon points="250,220 350,110 420,160 480,130 560,200 600,180 600,220 250,220" fill="#051c14" opacity="0.9"/>
+  <!-- water -->
+  <rect x="0" y="210" width="600" height="130" fill="url(#water)" opacity="0.7"/>
+  <ellipse cx="300" cy="210" rx="300" ry="8" fill="#0ff4c6" opacity="0.04"/>
+  <!-- water reflections -->
+  <line x1="100" y1="225" x2="200" y2="225" stroke="#0ff4c6" stroke-width="0.6" opacity="0.3"/>
+  <line x1="80" y1="240" x2="220" y2="240" stroke="#0ff4c6" stroke-width="0.4" opacity="0.2"/>
+  <line x1="350" y1="230" x2="500" y2="230" stroke="#fbbf24" stroke-width="0.6" opacity="0.25"/>
+  <!-- palm trees -->
+  <line x1="90" y1="300" x2="95" y2="175" stroke="#031a12" stroke-width="5"/>
+  <ellipse cx="80" cy="178" rx="30" ry="12" fill="#062e20" transform="rotate(-20,80,178)"/>
+  <ellipse cx="108" cy="183" rx="28" ry="10" fill="#083526" transform="rotate(15,108,183)"/>
+  <ellipse cx="95" cy="175" rx="22" ry="8" fill="#0a3d2e" transform="rotate(-5,95,175)"/>
+  <line x1="510" y1="300" x2="508" y2="168" stroke="#031a12" stroke-width="5"/>
+  <ellipse cx="498" cy="171" rx="28" ry="11" fill="#062e20" transform="rotate(-18,498,171)"/>
+  <ellipse cx="525" cy="176" rx="26" ry="9" fill="#083526" transform="rotate(12,525,176)"/>
+  <!-- resort UI -->
+  <!-- hero text overlay -->
+  <rect x="0" y="0" width="600" height="340" fill="black" opacity="0.28"/>
+  <text x="300" y="130" font-family="Georgia,serif" font-size="11" fill="#0ff4c6" text-anchor="middle" letter-spacing="6">MIRAVA RESORT</text>
+  <text x="300" y="158" font-family="Georgia,serif" font-size="22" fill="white" text-anchor="middle" font-style="italic">Your Perfect</text>
+  <text x="300" y="184" font-family="Georgia,serif" font-size="22" fill="white" text-anchor="middle" font-style="italic">Tropical Escape</text>
+  <rect x="230" y="202" width="140" height="30" rx="15" fill="none" stroke="#0ff4c6" stroke-width="1.5"/>
+  <text x="300" y="221" font-family="monospace" font-size="9" fill="#0ff4c6" text-anchor="middle" letter-spacing="2">EXPLORE NOW</text>
+  <!-- nav bar -->
+  <rect x="0" y="0" width="600" height="42" fill="black" opacity="0.45"/>
+  <text x="40" y="26" font-family="Georgia,serif" font-size="13" fill="white" font-weight="bold">MIRAVA</text>
+  <text x="380" y="26" font-family="monospace" font-size="8" fill="white" opacity="0.7" letter-spacing="2">ROOMS</text>
+  <text x="440" y="26" font-family="monospace" font-size="8" fill="white" opacity="0.7" letter-spacing="2">SPA</text>
+  <text x="490" y="26" font-family="monospace" font-size="8" fill="white" opacity="0.7" letter-spacing="2">DINE</text>
+  <text x="540" y="26" font-family="monospace" font-size="8" fill="#0ff4c6" opacity="0.9" letter-spacing="2">BOOK</text>
+  <!-- bottom card strip -->
+  <rect x="20" y="275" width="160" height="52" rx="8" fill="black" opacity="0.6" stroke="#ffffff14" stroke-width="1"/>
+  <rect x="200" y="275" width="160" height="52" rx="8" fill="black" opacity="0.6" stroke="#ffffff14" stroke-width="1"/>
+  <rect x="380" y="275" width="200" height="52" rx="8" fill="black" opacity="0.6" stroke="#ffffff14" stroke-width="1"/>
+  <text x="100" y="296" font-family="monospace" font-size="7" fill="#0ff4c6" text-anchor="middle">OCEAN VILLA</text>
+  <text x="100" y="310" font-family="sans-serif" font-size="10" fill="white" text-anchor="middle">$320 / night</text>
+  <text x="280" y="296" font-family="monospace" font-size="7" fill="#0ff4c6" text-anchor="middle">JUNGLE SUITE</text>
+  <text x="280" y="310" font-family="sans-serif" font-size="10" fill="white" text-anchor="middle">$245 / night</text>
+  <text x="480" y="296" font-family="monospace" font-size="7" fill="#fbbf24" text-anchor="middle">★ 4.9 · BEST SELLER</text>
+  <text x="480" y="310" font-family="sans-serif" font-size="10" fill="white" text-anchor="middle">INFINITY POOL VILLA</text>
+</svg>

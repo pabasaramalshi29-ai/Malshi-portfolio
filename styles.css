@@ -983,6 +983,82 @@ h1 .teal {
 }
 
 /* ── PROJECTS ── */
+
+/* Image-based project visuals */
+.proj-img-wrap {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.proj-preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+  display: block;
+  transition: transform 0.45s ease;
+}
+
+.proj-card:hover .proj-preview-img {
+  transform: scale(1.04);
+}
+
+.proj-live-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--text);
+  background: rgba(3, 5, 8, 0.78);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(15, 244, 198, 0.3);
+  padding: 5px 11px;
+  border-radius: 999px;
+  z-index: 3;
+}
+
+.proj-live-badge span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  box-shadow: 0 0 7px var(--teal);
+  animation: pulse 1.8s infinite;
+  flex-shrink: 0;
+}
+
+.proj-link-preview {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--teal);
+  color: #02110e;
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.25s, transform 0.2s;
+}
+
+.proj-link-preview:hover {
+  background: #0de0b2;
+  transform: translateY(-2px);
+  gap: 10px;
+}
+
 .proj-header {
   display: flex;
   align-items: flex-end;
@@ -1059,20 +1135,21 @@ h1 .teal {
 }
 
 .proj-visual {
-  height: 190px;
+  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
-  padding: 20px;
+  padding: 0;
 }
 
 .proj-card.featured .proj-visual {
-  width: 360px;
+  width: 420px;
   height: auto;
-  min-height: 260px;
+  min-height: 280px;
+  flex-shrink: 0;
 }
 
 .vis-weather {

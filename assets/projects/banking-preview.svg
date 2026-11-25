@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1200"/>
+      <stop offset="100%" style="stop-color:#141e00"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg)"/>
+  <!-- top nav bar -->
+  <rect x="0" y="0" width="600" height="48" fill="#08100a"/>
+  <rect x="0" y="47" width="600" height="1" fill="#1a2e08"/>
+  <text x="24" y="30" font-family="monospace" font-size="12" fill="#86efac" font-weight="bold" letter-spacing="2">DIGITAL BANKING</text>
+  <text x="400" y="20" font-family="monospace" font-size="7.5" fill="#4a7a30" letter-spacing="1.5">DASHBOARD</text>
+  <text x="460" y="20" font-family="monospace" font-size="7.5" fill="#4a7a30" letter-spacing="1.5">ACCOUNTS</text>
+  <text x="525" y="20" font-family="monospace" font-size="7.5" fill="#4a7a30" letter-spacing="1.5">QUERIES</text>
+  <text x="400" y="38" font-family="monospace" font-size="7.5" fill="#86efac" letter-spacing="1">TRANSFERS</text>
+  <circle cx="575" cy="24" r="12" fill="#1a2e08" stroke="#2a4a10" stroke-width="1"/>
+  <text x="575" y="28" font-family="monospace" font-size="8" fill="#86efac" text-anchor="middle">JD</text>
+  <!-- balance card -->
+  <rect x="20" y="62" width="250" height="110" rx="12" fill="#0f1e06" stroke="#1a3008" stroke-width="1.5"/>
+  <rect x="20" y="62" width="250" height="110" rx="12" fill="none" stroke="#86efac" stroke-width="0.5" opacity="0.4"/>
+  <!-- card shimmer -->
+  <rect x="20" y="62" width="250" height="110" rx="12" fill="url(#cardGrad)" opacity="0.4"/>
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </linearGradient>
+  </defs>
+  <text x="38" y="84" font-family="monospace" font-size="7.5" fill="#4a7a30" letter-spacing="2">TOTAL BALANCE</text>
+  <text x="38" y="116" font-family="sans-serif" font-size="28" fill="#86efac" font-weight="bold">Rs. 2,48,500</text>
+  <text x="38" y="140" font-family="monospace" font-size="7" fill="#4a7a30">●●●●  ●●●●  ●●●●  7823</text>
+  <text x="200" y="160" font-family="monospace" font-size="7" fill="#4a7a30">EXP 12/27</text>
+  <!-- savings card -->
+  <rect x="285" y="62" width="145" height="110" rx="12" fill="#0f1e06" stroke="#1a3008" stroke-width="1"/>
+  <text x="302" y="84" font-family="monospace" font-size="7" fill="#4a7a30" letter-spacing="1">SAVINGS A/C</text>
+  <text x="302" y="112" font-family="sans-serif" font-size="20" fill="#22c55e" font-weight="bold">Rs. 84,200</text>
+  <text x="302" y="140" font-family="monospace" font-size="6.5" fill="#4a7a30">Interest: 5.5% p.a</text>
+  <text x="302" y="158" font-family="monospace" font-size="6.5" fill="#4a7a30">A/C: ****4291</text>
+  <!-- fixed deposit card -->
+  <rect x="445" y="62" width="137" height="110" rx="12" fill="#0f1e06" stroke="#1a3008" stroke-width="1"/>
+  <text x="460" y="84" font-family="monospace" font-size="7" fill="#4a7a30" letter-spacing="1">FIXED DEPOSIT</text>
+  <text x="460" y="112" font-family="sans-serif" font-size="20" fill="#fbbf24" font-weight="bold">Rs. 1,20,000</text>
+  <text x="460" y="140" font-family="monospace" font-size="6.5" fill="#4a7a30">Rate: 8.2% p.a</text>
+  <text x="460" y="158" font-family="monospace" font-size="6.5" fill="#fbbf24">Matures: Mar 2026</text>
+  <!-- transaction table -->
+  <rect x="20" y="186" width="560" height="140" rx="10" fill="#0a1200" stroke="#1a2e08" stroke-width="1"/>
+  <rect x="20" y="186" width="560" height="30" rx="10" fill="#0f1e06"/>
+  <rect x="20" y="204" width="560" height="12" fill="#0f1e06"/>
+  <text x="36" y="206" font-family="monospace" font-size="8" fill="#86efac">RECENT TRANSACTIONS</text>
+  <text x="490" y="206" font-family="monospace" font-size="7" fill="#4a7a30">View All →</text>
+  <text x="36" y="224" font-family="monospace" font-size="7" fill="#4a7a30">DATE</text>
+  <text x="120" y="224" font-family="monospace" font-size="7" fill="#4a7a30">DESCRIPTION</text>
+  <text x="380" y="224" font-family="monospace" font-size="7" fill="#4a7a30">TYPE</text>
+  <text x="470" y="224" font-family="monospace" font-size="7" fill="#4a7a30">AMOUNT</text>
+  <text x="535" y="224" font-family="monospace" font-size="7" fill="#4a7a30">STATUS</text>
+  <line x1="20" y1="230" x2="580" y2="230" stroke="#1a2e08" stroke-width="0.8"/>
+  <!-- rows -->
+  <text x="36" y="246" font-family="monospace" font-size="7.5" fill="#94a6c2">24 Nov</text>
+  <text x="120" y="246" font-family="sans-serif" font-size="8.5" fill="#e8edf5">Salary Credit - ABC Corp</text>
+  <text x="380" y="246" font-family="monospace" font-size="7" fill="#22c55e">CREDIT</text>
+  <text x="470" y="246" font-family="monospace" font-size="8" fill="#22c55e">+85,000</text>
+  <rect x="528" y="237" width="44" height="13" rx="6" fill="#22c55e" opacity="0.15" stroke="#22c55e" stroke-width="0.6"/>
+  <text x="550" y="247" font-family="monospace" font-size="6.5" fill="#22c55e" text-anchor="middle">SUCCESS</text>
+  <line x1="20" y1="256" x2="580" y2="256" stroke="#1a2e08" stroke-width="0.6"/>
+  <text x="36" y="272" font-family="monospace" font-size="7.5" fill="#94a6c2">22 Nov</text>
+  <text x="120" y="272" font-family="sans-serif" font-size="8.5" fill="#e8edf5">Online Transfer - Utilities</text>
+  <text x="380" y="272" font-family="monospace" font-size="7" fill="#f43f8e">DEBIT</text>
+  <text x="470" y="272" font-family="monospace" font-size="8" fill="#f43f8e">-12,400</text>
+  <rect x="528" y="263" width="44" height="13" rx="6" fill="#22c55e" opacity="0.15" stroke="#22c55e" stroke-width="0.6"/>
+  <text x="550" y="273" font-family="monospace" font-size="6.5" fill="#22c55e" text-anchor="middle">SUCCESS</text>
+  <line x1="20" y1="282" x2="580" y2="282" stroke="#1a2e08" stroke-width="0.6"/>
+  <text x="36" y="298" font-family="monospace" font-size="7.5" fill="#94a6c2">20 Nov</text>
+  <text x="120" y="298" font-family="sans-serif" font-size="8.5" fill="#e8edf5">ATM Withdrawal</text>
+  <text x="380" y="298" font-family="monospace" font-size="7" fill="#f43f8e">DEBIT</text>
+  <text x="470" y="298" font-family="monospace" font-size="8" fill="#f43f8e">-5,000</text>
+  <rect x="528" y="289" width="44" height="13" rx="6" fill="#22c55e" opacity="0.15" stroke="#22c55e" stroke-width="0.6"/>
+  <text x="550" y="299" font-family="monospace" font-size="6.5" fill="#22c55e" text-anchor="middle">SUCCESS</text>
+</svg>
