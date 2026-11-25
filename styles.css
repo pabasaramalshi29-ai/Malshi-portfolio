@@ -1037,41 +1037,86 @@ h1 .teal {
   flex-shrink: 0;
 }
 
+.proj-btn-live,
 .proj-link-preview,
 .proj-link.proj-link-preview {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
-  background: var(--teal);
+  background: var(--teal) !important;
   color: #031310 !important;
-  padding: 8px 18px;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700 !important;
+  box-shadow: 0 3px 14px rgba(15, 244, 198, 0.32);
+  transition: background 0.25s, transform 0.2s, box-shadow 0.25s, gap 0.25s;
+  border: 1px solid var(--teal);
+}
+
+.proj-btn-live span,
+.proj-link-preview span,
+.proj-link.proj-link-preview span {
+  color: #031310 !important;
+  font-weight: 700 !important;
+}
+
+.proj-btn-live:hover,
+.proj-link-preview:hover,
+.proj-link.proj-link-preview:hover {
+  background: #34fcd0 !important;
+  color: #000000 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(15, 244, 198, 0.48);
+  gap: 10px;
+}
+
+.proj-btn-live:hover span,
+.proj-link-preview:hover span,
+.proj-link.proj-link-preview:hover span {
+  color: #000000 !important;
+}
+
+.proj-btn-code {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(15, 244, 198, 0.05);
+  color: var(--teal) !important;
+  padding: 9px 20px;
   border-radius: 6px;
   font-family: 'DM Mono', monospace;
   font-size: 0.74rem;
   letter-spacing: 1.2px;
+  text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
-  box-shadow: 0 2px 12px rgba(15, 244, 198, 0.25);
-  transition: background 0.25s, transform 0.2s, box-shadow 0.25s, gap 0.25s;
+  border: 1px solid rgba(15, 244, 198, 0.32);
+  transition: background 0.25s, border-color 0.25s, transform 0.2s, box-shadow 0.25s, gap 0.25s;
 }
 
-.proj-link-preview span,
-.proj-link.proj-link-preview span {
-  color: #031310 !important;
+.proj-btn-code span {
+  color: var(--teal) !important;
+  font-weight: 600;
 }
 
-.proj-link-preview:hover,
-.proj-link.proj-link-preview:hover {
-  background: #34fcd0;
-  color: #010b09 !important;
+.proj-btn-code:hover {
+  background: rgba(15, 244, 198, 0.16);
+  border-color: var(--teal);
+  color: #ffffff !important;
   transform: translateY(-2px);
-  box-shadow: 0 4px 18px rgba(15, 244, 198, 0.45);
-  gap: 10px;
+  box-shadow: 0 4px 16px rgba(15, 244, 198, 0.22);
+  gap: 11px;
 }
 
-.proj-link-preview:hover span,
-.proj-link.proj-link-preview:hover span {
-  color: #010b09 !important;
+.proj-btn-code:hover span {
+  color: #ffffff !important;
 }
 
 .proj-header {
