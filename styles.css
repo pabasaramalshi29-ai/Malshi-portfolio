@@ -1230,6 +1230,9 @@ h1 .teal {
 .vis-tech {
   background: linear-gradient(135deg, #051624, #08293f);
 }
+.vis-paperbyte {
+  background: linear-gradient(135deg, #0d0f1d, #1e1b4b, #0d9488);
+}
 .vis-todo {
   background: linear-gradient(135deg, #091326, #112242);
 }

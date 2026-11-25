@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="pbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0f1d"/>
+      <stop offset="100%" style="stop-color:#161933"/>
+    </linearGradient>
+    <linearGradient id="pbIndigo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#4338ca"/>
+    </linearGradient>
+    <linearGradient id="pbTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2dd4bf"/>
+      <stop offset="100%" style="stop-color:#0d9488"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="340" fill="url(#pbBg)"/>
+
+  <!-- Top Accessibility Banner -->
+  <rect x="0" y="0" width="600" height="24" fill="#0f1124"/>
+  <text x="24" y="16" font-family="'DM Mono', monospace, sans-serif" font-size="8" fill="#818cf8" letter-spacing="1">UNIVERSAL DESIGN &bull; WCAG 2.1 AA/AAA ACCESSIBLE E-COMMERCE</text>
+  <rect x="470" y="5" width="46" height="14" rx="7" fill="#1e2242" stroke="#3730a3" stroke-width="0.8"/>
+  <text x="493" y="15" font-family="sans-serif" font-size="7" fill="#e0e7ff" text-anchor="middle">A | A+ | A++</text>
+  <rect x="524" y="5" width="56" height="14" rx="7" fill="#fbbf24" opacity="0.15" stroke="#fbbf24" stroke-width="0.8"/>
+  <text x="552" y="15" font-family="sans-serif" font-size="7" fill="#fbbf24" text-anchor="middle">CONTRAST</text>
+
+  <!-- Main Navigation Header -->
+  <rect x="0" y="24" width="600" height="46" fill="#13162d"/>
+  <line x1="0" y1="70" x2="600" y2="70" stroke="#25294a" stroke-width="1"/>
+
+  <!-- Logo -->
+  <rect x="24" y="34" width="26" height="26" rx="6" fill="url(#pbIndigo)"/>
+  <path d="M 32 40 L 42 40 L 42 50 L 32 50 Z" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="58" y="51" font-family="'Playfair Display', Georgia, serif" font-size="16" fill="#ffffff" font-weight="bold">Paperbyte</text>
+
+  <!-- Search Input with Keyboard Shortcut -->
+  <rect x="180" y="34" width="230" height="26" rx="6" fill="#1e2242" stroke="#3730a3" stroke-width="0.8"/>
+  <text x="195" y="51" font-family="sans-serif" font-size="8.5" fill="#818cf8">🔍 Search products... (Press /)</text>
+  <rect x="382" y="39" width="18" height="16" rx="3" fill="#2d325a"/>
+  <text x="391" y="50" font-family="monospace" font-size="8" fill="#c7d2fe" text-anchor="middle">/</text>
+
+  <!-- Header Right Controls -->
+  <rect x="430" y="34" width="70" height="26" rx="6" fill="#1e2242" stroke="#3730a3" stroke-width="0.8"/>
+  <text x="465" y="50" font-family="sans-serif" font-size="8" fill="#e0e7ff" text-anchor="middle">Speech TTS 🔊</text>
+
+  <rect x="510" y="34" width="70" height="26" rx="6" fill="url(#pbTeal)"/>
+  <text x="542" y="50" font-family="sans-serif" font-size="8.5" fill="#022c22" font-weight="bold" text-anchor="middle">Basket (3)</text>
+
+  <!-- Category Tab Bar -->
+  <rect x="0" y="70" width="600" height="34" fill="#0e1022"/>
+  <line x1="0" y1="104" x2="600" y2="104" stroke="#25294a" stroke-width="1"/>
+
+  <!-- Category Tabs -->
+  <rect x="24" y="76" width="94" height="22" rx="4" fill="#4338ca"/>
+  <text x="71" y="90" font-family="sans-serif" font-size="8" fill="#ffffff" font-weight="600" text-anchor="middle">All Products (10)</text>
+
+  <rect x="126" y="76" width="94" height="22" rx="4" fill="#181c38"/>
+  <text x="173" y="90" font-family="sans-serif" font-size="8" fill="#a5b4fc" text-anchor="middle">Electronics (4)</text>
+
+  <rect x="228" y="76" width="86" height="22" rx="4" fill="#181c38"/>
+  <text x="271" y="90" font-family="sans-serif" font-size="8" fill="#a5b4fc" text-anchor="middle">Clothing (3)</text>
+
+  <rect x="322" y="76" width="92" height="22" rx="4" fill="#181c38"/>
+  <text x="368" y="90" font-family="sans-serif" font-size="8" fill="#a5b4fc" text-anchor="middle">Stationery (3)</text>
+
+  <!-- Sort / Filter -->
+  <text x="520" y="90" font-family="sans-serif" font-size="8" fill="#818cf8">In Stock Only ☑</text>
+
+  <!-- Product Catalog Cards Grid -->
+  <!-- Card 1: Lenovo Smart Paper -->
+  <rect x="24" y="118" width="170" height="204" rx="8" fill="#13162d" stroke="#25294a" stroke-width="1"/>
+  <rect x="34" y="128" width="150" height="90" rx="6" fill="#1e2242"/>
+  <text x="109" y="172" font-family="sans-serif" font-size="28" text-anchor="middle">📱</text>
+  <rect x="40" y="134" width="56" height="14" rx="3" fill="#059669" opacity="0.9"/>
+  <text x="68" y="144" font-family="sans-serif" font-size="7" fill="white" font-weight="bold" text-anchor="middle">8 IN STOCK</text>
+  <text x="34" y="234" font-family="sans-serif" font-size="9" fill="#ffffff" font-weight="bold">Lenovo Smart Paper</text>
+  <text x="34" y="248" font-family="sans-serif" font-size="7.5" fill="#818cf8">10.3" Anti-Glare E-Ink Carta</text>
+  <text x="34" y="270" font-family="'DM Mono', monospace" font-size="11" fill="#2dd4bf" font-weight="bold">Rs. 138,500</text>
+  <rect x="34" y="284" width="150" height="26" rx="5" fill="url(#pbIndigo)"/>
+  <text x="109" y="300" font-family="sans-serif" font-size="8" fill="white" font-weight="bold" text-anchor="middle">+ Add to Basket</text>
+
+  <!-- Card 2: Anker Soundcore Q20i -->
+  <rect x="214" y="118" width="170" height="204" rx="8" fill="#13162d" stroke="#25294a" stroke-width="1"/>
+  <rect x="224" y="128" width="150" height="90" rx="6" fill="#1e2242"/>
+  <text x="299" y="172" font-family="sans-serif" font-size="28" text-anchor="middle">🎧</text>
+  <rect x="230" y="134" width="58" height="14" rx="3" fill="#059669" opacity="0.9"/>
+  <text x="259" y="144" font-family="sans-serif" font-size="7" fill="white" font-weight="bold" text-anchor="middle">15 IN STOCK</text>
+  <text x="224" y="234" font-family="sans-serif" font-size="9" fill="#ffffff" font-weight="bold">Anker Soundcore Q20i</text>
+  <text x="224" y="248" font-family="sans-serif" font-size="7.5" fill="#818cf8">Hybrid Active Noise Cancelling</text>
+  <text x="224" y="270" font-family="'DM Mono', monospace" font-size="11" fill="#2dd4bf" font-weight="bold">Rs. 18,990</text>
+  <rect x="224" y="284" width="150" height="26" rx="5" fill="url(#pbIndigo)"/>
+  <text x="299" y="300" font-family="sans-serif" font-size="8" fill="white" font-weight="bold" text-anchor="middle">+ Add to Basket</text>
+
+  <!-- Card 3: Checkout & Order Review Drawer Preview -->
+  <rect x="404" y="118" width="172" height="204" rx="8" fill="#13162d" stroke="#2dd4bf" stroke-width="1.2"/>
+  <rect x="414" y="128" width="152" height="24" rx="4" fill="#1e2242"/>
+  <text x="490" y="143" font-family="sans-serif" font-size="8.5" fill="#2dd4bf" font-weight="bold" text-anchor="middle">⚡ 3-STEP CHECKOUT</text>
+
+  <rect x="414" y="160" width="152" height="16" rx="3" fill="#0f1124"/>
+  <text x="424" y="171" font-family="monospace" font-size="7" fill="#a5b4fc">Step 1: Shipping Details &bull; OK</text>
+
+  <rect x="414" y="182" width="152" height="16" rx="3" fill="#0f1124"/>
+  <text x="424" y="193" font-family="monospace" font-size="7" fill="#a5b4fc">Step 2: Card Authorization &bull; OK</text>
+
+  <rect x="414" y="204" width="152" height="16" rx="3" fill="#1e2242" stroke="#4338ca" stroke-width="0.8"/>
+  <text x="424" y="215" font-family="monospace" font-size="7" fill="#2dd4bf">Step 3: Instant Receipt</text>
+
+  <!-- Receipt Confirmation Box -->
+  <rect x="414" y="228" width="152" height="50" rx="4" fill="#0d1f2d" stroke="#0d9488" stroke-width="0.8"/>
+  <text x="422" y="243" font-family="sans-serif" font-size="7.5" fill="#2dd4bf" font-weight="bold">Order Confirmed!</text>
+  <text x="422" y="255" font-family="monospace" font-size="6.5" fill="#99f6e4">Receipt: PB-849201</text>
+  <text x="422" y="267" font-family="monospace" font-size="6.5" fill="#cbd5e1">Saved to localStorage</text>
+
+  <rect x="414" y="284" width="152" height="26" rx="5" fill="url(#pbTeal)"/>
+  <text x="490" y="300" font-family="sans-serif" font-size="8" fill="#022c22" font-weight="bold" text-anchor="middle">View Live Store ↗</text>
+</svg>
